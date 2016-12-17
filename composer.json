@@ -1,0 +1,26 @@
+{
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "RallyTools/RallyRestToolkitForPHP",
+        "version": "dev-master",
+        "dist": {
+          "url": "https://github.com/RallyTools/RallyRestToolkitForPHP/archive/master.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url": "https://github.com/RallyTools/RallyRestToolkitForPHP/",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "classmap": ["Rally.php"]
+        }
+      }
+    }
+  ],
+  "require": {
+    "RallyTools/RallyRestToolkitForPHP": "dev-master"
+  }
+}
