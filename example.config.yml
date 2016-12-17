@@ -1,0 +1,19 @@
+---
+# For now, I'm planning to build a GitHub integration, so no need to provide
+# GitHub credentials here.
+
+# The Rally user you wish to use for accessing the API. This is normally the
+# rallydev login email.
+user: USER@DOMAIN.TLD
+
+# The Rally user password.
+pass: PASSWORD
+
+# The default domain is rally1.rallydev.com, but custom domains are possible.
+# Note this GitHubToRally assumes your Rally instance will always be served
+# from https.
+domain: rally1.rallydev.com
+
+# An optional project ID, tying the specified GitHub repo to a single project
+# for Rally accounts with multiple projects.
+project_id: 123456789
