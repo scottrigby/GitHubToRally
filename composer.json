@@ -22,5 +22,10 @@
   ],
   "require": {
     "RallyTools/RallyRestToolkitForPHP": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "GitHubToRally\\":"src/"
+    }
   }
 }
