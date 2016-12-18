@@ -52,6 +52,7 @@ class GitHub {
    * @todo Add GitHub Labels to the Rally Defect as Rally Tags.
    *
    * See @link https://rally1.rallydev.com/slm/doc/webservice/ Rally Web Services API documentation. @endlink
+   * See @link https://developer.github.com/v3/activity/events/types/#issuesevent IssuesEvent Events API payload @endlink
    *
    * @see \GitHubToRally\Rally.
    */
