@@ -39,7 +39,7 @@ When developers create issues in a linked GitHub project, GitHubToRally
    [Integration](https://developer.github.com/early-access/integrations/creating-an-integration/),
    or [Webhook](https://developer.github.com/webhooks/), according to your preference.
 2. If you prefer to connect via a `Webhook`:
-   - Set `Payload URL` as https://DOMAIN/github.php ()where DOMAIN is the
+   - Set `Payload URL` as https://DOMAIN/webhook.php ()where DOMAIN is the
      domain where you installed this project (see "Environment setup" above).
    - Set `Secret` to the `GITHUB_SECRET` environment variable you added above.
    - For `events to trigger this webhook`, choose `Let me select individual
